@@ -4,7 +4,7 @@
         <!-- 购货管理 action -->
 
         <record id="buy_order_action" model="ir.actions.act_window">
-            <field name="name">购货订单</field>
+            <field name="name">购货订单myproject</field>
             <field name="res_model">buy.order</field>
             <field name="view_mode">tree,form</field>
             <field name="context">{'warehouse_dest_type': 'stock'}</field>
